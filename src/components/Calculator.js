@@ -17,7 +17,7 @@ class Calculator extends React.Component {
       }
     });
     this.operators.forEach((element) => {
-      <li><button type="button">{element}</button></li>;
+      this.operatorsbtn.push(<li><button type="button">{element}</button></li>);
     });
   }
 
