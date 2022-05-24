@@ -11,13 +11,13 @@ class Calculator extends React.Component {
     this.operatorsbtn = [];
     this.numbers.forEach((element) => {
       if (element !== '0') {
-        this.numberbtn.push(<li><button type="button">{element}</button></li>);
+        this.numberbtn.push(<li key={element}><button type="button">{element}</button></li>);
       } else {
-        this.numberbtn.push(<li id="zero"><button type="button">{element}</button></li>);
+        this.numberbtn.push(<li id="zero" key={element}><button type="button">{element}</button></li>);
       }
     });
     this.operators.forEach((element) => {
-      this.operatorsbtn.push(<li><button type="button">{element}</button></li>);
+      this.operatorsbtn.push(<li key={element}><button type="button">{element}</button></li>);
     });
   }
 
