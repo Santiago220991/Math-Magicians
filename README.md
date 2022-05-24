@@ -7,7 +7,7 @@
 - Addition **+** 
 - Sustraction **-**
 - Multiplication **x** 
-- Divison **/**
+- Divison **÷**
 
 
 ## Built With
