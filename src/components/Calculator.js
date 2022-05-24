@@ -5,7 +5,20 @@ class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
-
+    this.numbers = ['AC', '+/-', '%', '7', '8', '9', '4', '5', '6', '1', '2', '3', '0', '.'];
+    this.numberbtn = [];
+    this.operators = ['/', '*', '-', '+', '='];
+    this.operatorsbtn = [];
+    this.numbers.forEach((element) => {
+      if (element !== '0') {
+        this.numberbtn.push(<li><button type="button">{element}</button></li>);
+      } else {
+        this.numberbtn.push(<li id="zero"><button type="button">{element}</button></li>);
+      }
+    });
+    this.operators.forEach((element) => {
+      <li><button type="button">{element}</button></li>;
+    });
   }
 
   render() {
@@ -13,27 +26,10 @@ class Calculator extends React.Component {
       <div className="calculatordiv">
         <p className="display">0</p>
         <ul className="numbers">
-          <li><button type="button">AC</button></li>
-          <li><button type="button">+/-</button></li>
-          <li><button type="button">%</button></li>
-          <li><button type="button">7</button></li>
-          <li><button type="button">8</button></li>
-          <li><button type="button">9</button></li>
-          <li><button type="button">4</button></li>
-          <li><button type="button">5</button></li>
-          <li><button type="button">6</button></li>
-          <li><button type="button">1</button></li>
-          <li><button type="button">2</button></li>
-          <li><button type="button">3</button></li>
-          <li id="zero"><button type="button">0</button></li>
-          <li><button type="button">.</button></li>
+          {this.numberbtn}
         </ul>
         <ul className="operators">
-          <li><button type="button">/</button></li>
-          <li><button type="button">*</button></li>
-          <li><button type="button">-</button></li>
-          <li><button type="button">+</button></li>
-          <li><button type="button">=</button></li>
+          {this.operatorsbtn}
         </ul>
       </div>
     );
