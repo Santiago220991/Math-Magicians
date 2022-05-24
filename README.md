@@ -4,10 +4,10 @@
 
 > **This is a webpage that shows a functional calculator with the next basic functions.**
 
-- Addition (+) 
-- Sustraction (-) 
-- Multiplication (*) 
-- Divison (/)
+- Addition **+** 
+- Sustraction **-**
+- Multiplication **x** 
+- Divison **/**
 
 
 ## Built With
