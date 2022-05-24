@@ -1,8 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magicians
 
-> Math Magicians
+> **This is a webpage that shows a functional calculator with the next basic functions.**
+
+- Addition (+) 
+- Sustraction (-) 
+- Multiplication (*) 
+- Divison (/)
 
 
 ## Built With
@@ -17,18 +22,6 @@
 [Javascript Capstone Live Demo](https://santiago220991.github.io/math-magicians/dist)
 
 ## Getting Started
-
-**This is a webpage that shows a functional calculator with the next basic functions.**
-
-- Addition (+) 
-
-- Sustraction (-) 
-
-- Multiplication (*) 
-
-- Divison (/)
-
-- This project was built with JavaScript and React.
 
 To get a local copy up and running follow these simple example steps.
 
