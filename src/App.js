@@ -1,8 +1,5 @@
 import React from 'react';
 import Calculator from './components/Calculator';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Quote from './components/Quote';
 import './App.css';
 
 class App extends React.Component {
@@ -13,12 +10,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <Navbar />
-        <Home />
-        <Calculator />
-        <Quote />
-      </div>
+      <Calculator />
     );
   }
 }

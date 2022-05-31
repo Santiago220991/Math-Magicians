@@ -1,3 +1,4 @@
-p{
-    font-size: 24px;
+.quote p{
+    font-size: 28px;
+    font-weight: bolder;
 }
