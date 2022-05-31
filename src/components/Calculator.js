@@ -26,20 +26,23 @@ const Calculator = () => {
   });
 
   return (
-    <div className="calculatordiv">
-      <p className="display">
-        {result.total}
-        {' '}
-        {result.operation}
-        {' '}
-        {result.next}
-      </p>
-      <ul className="numbers">
-        {numberbtn}
-      </ul>
-      <ul className="operators">
-        {operatorsbtn}
-      </ul>
+    <div className="calculator">
+      <h1>Let&lsquo;s do some math!</h1>
+      <div className="calculatordiv">
+        <p className="display">
+          {result.total}
+          {' '}
+          {result.operation}
+          {' '}
+          {result.next}
+        </p>
+        <ul className="numbers">
+          {numberbtn}
+        </ul>
+        <ul className="operators">
+          {operatorsbtn}
+        </ul>
+      </div>
     </div>
   );
 };
