@@ -2,14 +2,24 @@
   box-sizing: border-box;
 }
 
+.calculator{
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  margin-top:  10%;
+  padding-left: 5%;
+}
+
 .calculatordiv {
   border: 2px solid black;
   display: flex;
   flex-wrap: wrap;
   padding: 1px;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-right: 5%;
   margin-top: 10%;
+  flex-grow: 0.5;
 }
 
 .display {
