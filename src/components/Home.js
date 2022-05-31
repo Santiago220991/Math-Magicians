@@ -5,8 +5,8 @@ const text = ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed
 const Home = () => (
   <div className="homediv">
     <p className="title">Welcome to our page!</p>
-    <p>{text}</p>
-    <p>{text}</p>
+    <p className="txt">{text}</p>
+    <p className="txt">{text}</p>
   </div>
 );
 

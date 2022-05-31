@@ -5,21 +5,25 @@
 .calculator{
   display: flex;
   justify-content: space-between;
+  animation-name: entering;
+  animation-duration: 1s;
 }
 
 h1{
   margin-top:  10%;
-  padding-left: 5%;
+  padding-left: 12%;
 }
 
 .calculatordiv {
+  background-color: white;
   border: 2px solid black;
   display: flex;
   flex-wrap: wrap;
   padding: 1px;
-  margin-right: 5%;
+  margin-right: 8%;
   margin-top: 10%;
-  flex-grow: 0.5;
+  max-width: 500px;
+  width: 500px;
 }
 
 .display {
@@ -99,4 +103,13 @@ button {
 
 .operators button:active {
   background-color: rgb(211, 148, 32);
+}
+
+@keyframes entering {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+}
 }

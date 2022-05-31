@@ -4,6 +4,10 @@ nav{
     align-items: center;
     padding-left: 5%;
     padding-right: 5%;
+    margin-top: 1%;
+    background-color: antiquewhite;
+    animation-name: showing;
+    animation-duration: 2s;
 }
 
 .logo{
@@ -22,7 +26,7 @@ nav{
     padding-right: 20px;
 }
 
-.calculator{
+.navcalc{
     border-right: solid 1px black;
     padding-right: 20px;
 }
@@ -30,4 +34,15 @@ nav{
 .menu ul li{
     display: flex;
     list-style: none;
+   
+}
+
+@keyframes showing {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
