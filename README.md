@@ -19,7 +19,9 @@
 
 ## Live Demo
 
-[Javascript Capstone Live Demo](https://santiago220991.github.io/math-magicians/dist)
+[Math Magicians Live Demo in Heroku](https://math-magicians-santiago.herokuapp.com/)
+
+[Math Magicians Live Demo in Heroku](https://bespoke-madeleine-424ee3.netlify.app/)
 
 ## Getting Started
 
