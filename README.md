@@ -21,7 +21,7 @@
 
 [Math Magicians Live Demo in Heroku](https://math-magicians-santiago.herokuapp.com/)
 
-[Math Magicians Live Demo in Heroku](https://bespoke-madeleine-424ee3.netlify.app/)
+[Math Magicians Live Demo in Netlify](https://bespoke-madeleine-424ee3.netlify.app/)
 
 ## Getting Started
 
