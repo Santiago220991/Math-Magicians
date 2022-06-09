@@ -9,6 +9,7 @@
 - Multiplication **x** 
 - Divison **÷**
 
+![Math Magicians](https://user-images.githubusercontent.com/98363075/172753095-dbd0350d-2052-46a3-bdac-5b94f3f8ab8a.png)
 
 ## Built With
 
