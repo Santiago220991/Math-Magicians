@@ -5,7 +5,7 @@
 > **This is a webpage that shows a functional calculator with the next basic functions.**
 
 - Addition **+** 
-- Sustraction **-**
+- Subtraction **-**
 - Multiplication **x** 
 - Divison **÷**
 
